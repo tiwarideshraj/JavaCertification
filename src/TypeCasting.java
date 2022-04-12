@@ -1,6 +1,8 @@
 import com.sun.org.apache.xpath.internal.objects.XString;
 
 import java.time.Clock;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class TypeCasting {
     public static void main(String args[]){
@@ -79,6 +81,14 @@ public class TypeCasting {
             System.out.println("your grade is A "+
                     "Thanks for attending the exam.");
         }
+         ShapeByLoop shape = new ShapeByLoop();
+        shape.rightTrangle(8);
+        shape.oppRightTrangle(8);
+        shape.rectangle(8);
+        ArrayPractical sum = new ArrayPractical();
+        sum.arraySum();
+        StringPractice.countWord("hi how are you i am fine","you");
+        StringPractice.deleteAll("hi how are you i am fine","you");
 
     }
 }
