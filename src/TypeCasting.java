@@ -1,31 +1,41 @@
-import com.sun.org.apache.xpath.internal.objects.XString;
-
-import java.time.Clock;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class TypeCasting {
     public static void main(String args[]){
+       /* ShapeByLoop shape = new ShapeByLoop();
+        shape.rightTrangle(8);
+        shape.oppRightTrangle(8);
+        shape.rectangle(8);
+        ArrayPractical sum = new ArrayPractical();
+        sum.arraySum();
+        StringPractice.countWord("hi how are you i am fine and you","you");
+        StringPractice .deleteAll("hi how are you i am fine","you");
+        StringPractice.upperLowerCase("hi how are you i am fine");
+        StringPractice.countWord("hi hello bro hi","hello");*/
+DateInJava dateInJava = new DateInJava();
+dateInJava.date();
+
+    }
+    public void udemy1To5Module(){
         //exc 1
-        int distance;
-        distance=4750;
-        int km , m;
-        km=distance/1000;
-        m=distance%1000;
-        System.out.println("Distance  " +km);
-        System.out.println("km  " +m);
-
-        //exc 2
-        long time;
-        int second;
-        time = 4000000000l;
-        second =(int)(time/1000000000l);
-        System.out.println(second);
-
-        //exc 3
-        //float f=10.45/9.5;
-        float fl=10.45f/9.5f;
-        System.out.println(fl);
+//        int distance;
+//        distance=4750;
+//        int km , m;
+//        km=distance/1000;
+//        m=distance%1000;
+//        System.out.println("Distance :" +km+" KM "+m+" M");
+//        //System.out.println("km  " +m);
+//
+//        //exc 2
+//        long time;
+//        int second;
+//        time = 4000000000l;
+//        second =(int)(time/1000000000l);
+//        System.out.println(second);
+//
+//        //exc 3
+//        //float f=10.45/9.5;
+//        float fl=10.45f/9.5f;
+//        System.out.println(fl);
 
         //exc 4
         int s =3*5%7;
@@ -81,14 +91,5 @@ public class TypeCasting {
             System.out.println("your grade is A "+
                     "Thanks for attending the exam.");
         }
-         ShapeByLoop shape = new ShapeByLoop();
-        shape.rightTrangle(8);
-        shape.oppRightTrangle(8);
-        shape.rectangle(8);
-        ArrayPractical sum = new ArrayPractical();
-        sum.arraySum();
-        StringPractice.countWord("hi how are you i am fine","you");
-        StringPractice.deleteAll("hi how are you i am fine","you");
-
     }
 }

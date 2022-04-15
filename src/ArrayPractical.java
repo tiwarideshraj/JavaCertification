@@ -1,5 +1,5 @@
 public class ArrayPractical {
-     int [] valueArray = {2,3,4,5,6};
+     int [] valueArray = {2,5,6};
 
     public void arraySum() {
         int i=0,sum = 0;
@@ -12,8 +12,6 @@ public class ArrayPractical {
         // calculate sum here.
         // access the length of array :  valueArray.length
         // access an element of array : valueArray[i]
-
-
         System.out.println(sum);   // this will print the value of sum to screen.
 
     }
